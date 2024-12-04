@@ -260,7 +260,7 @@ def generate_wordcloud(text, exclude_words, include_words=None):
 # Streamlit App Layout
 
 # Title of the app
-st.write("Upload an Excel file, select a column for word extraction, and input words to exclude from the word cloud.")
+st.write("Upload an Excel file >> Select a column for word extraction >> Input words to inlcude/exclude from the word cloud >> Generate Wordcloud")
 
 # File upload
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx"])
