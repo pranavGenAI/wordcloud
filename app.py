@@ -4,7 +4,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import io
 
-st.set_page_config(page_title="Excel WordCloud Generator", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Excel WordCloud Generator", page_icon="☁︎", layout="wide")
 
 particle_html = """
 <!DOCTYPE html>
